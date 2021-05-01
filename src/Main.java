@@ -11,6 +11,7 @@ public class Main {
 
         Student student1 = new Student(1, "Enes Bahan", "Morova", "bh**@gmail.com", 537, 21);
         StudentManager studentManager = new StudentManager();
+
         studentManager.add(student1);
         studentManager.studentNumber(student1);
         System.out.println("--------------------------");
